@@ -13,6 +13,7 @@
 		CABEA91025657A22005406F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEA90E25657A22005406F2 /* Main.storyboard */; };
 		CABEA91225657A26005406F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABEA91125657A26005406F2 /* Assets.xcassets */; };
 		CABEA91525657A26005406F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CABEA91325657A26005406F2 /* LaunchScreen.storyboard */; };
+		CABEA91F25658309005406F2 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEA91E25658309005406F2 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CABEA91125657A26005406F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CABEA91425657A26005406F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CABEA91625657A26005406F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CABEA91E25658309005406F2 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CABEA90825657A22005406F2 /* AppDelegate.swift */,
 				CABEA90A25657A22005406F2 /* SceneDelegate.swift */,
 				CABEA90C25657A22005406F2 /* ViewController.swift */,
+				CABEA91E25658309005406F2 /* CurrentWeather.swift */,
 				CABEA90E25657A22005406F2 /* Main.storyboard */,
 				CABEA91125657A26005406F2 /* Assets.xcassets */,
 				CABEA91325657A26005406F2 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				CABEA90D25657A22005406F2 /* ViewController.swift in Sources */,
 				CABEA90925657A22005406F2 /* AppDelegate.swift in Sources */,
+				CABEA91F25658309005406F2 /* CurrentWeather.swift in Sources */,
 				CABEA90B25657A22005406F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
