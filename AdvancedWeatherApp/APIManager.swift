@@ -15,14 +15,19 @@ enum APIResult<T> {
     case Failure(Error)
 }
 
+protocol FinalURLPoint {
+    var baseURL: URL { get }
+    var path: String { get }
+    var request: URLRequest { get }
+}
+
 protocol APIManager {
     var sessionConfiguration: URLSessionConfiguration { get }
     var session: URLSession { get }
     
     func JSONTaskWith(request: URLRequest, completionHandler: @escaping JSONCompletionHandler) -> JSONTask
-    func fetch<T>(request: URLRequest, parse: ([String: AnyObject]) -> T?, completionHandler: @escaping (APIResult<T>) -> Void )
+    func fetch<T>(request: URLRequest, parse: @escaping ([String: AnyObject]) -> T?, completionHandler: @escaping (APIResult<T>) -> Void )
     
-    init(sessionConfiguration: URLSessionConfiguration)
 }
 
 extension APIManager {

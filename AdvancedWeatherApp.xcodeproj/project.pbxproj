@@ -16,6 +16,7 @@
 		CABEA91F25658309005406F2 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEA91E25658309005406F2 /* CurrentWeather.swift */; };
 		CABEA92225683D8E005406F2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEA92125683D8E005406F2 /* APIManager.swift */; };
 		CABEA9252568425A005406F2 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEA9242568425A005406F2 /* ErrorManager.swift */; };
+		CABEA928256BAEF5005406F2 /* APIWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CABEA927256BAEF5005406F2 /* APIWeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CABEA91E25658309005406F2 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		CABEA92125683D8E005406F2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		CABEA9242568425A005406F2 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		CABEA927256BAEF5005406F2 /* APIWeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIWeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				CABEA90A25657A22005406F2 /* SceneDelegate.swift */,
 				CABEA90C25657A22005406F2 /* ViewController.swift */,
 				CABEA92125683D8E005406F2 /* APIManager.swift */,
+				CABEA927256BAEF5005406F2 /* APIWeatherManager.swift */,
 				CABEA9242568425A005406F2 /* ErrorManager.swift */,
 				CABEA91E25658309005406F2 /* CurrentWeather.swift */,
 				CABEA90E25657A22005406F2 /* Main.storyboard */,
@@ -150,6 +153,7 @@
 				CABEA90D25657A22005406F2 /* ViewController.swift in Sources */,
 				CABEA90925657A22005406F2 /* AppDelegate.swift in Sources */,
 				CABEA92225683D8E005406F2 /* APIManager.swift in Sources */,
+				CABEA928256BAEF5005406F2 /* APIWeatherManager.swift in Sources */,
 				CABEA91F25658309005406F2 /* CurrentWeather.swift in Sources */,
 				CABEA90B25657A22005406F2 /* SceneDelegate.swift in Sources */,
 			);
